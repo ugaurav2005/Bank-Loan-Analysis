@@ -1,6 +1,6 @@
 # Bank-Loan-Dashboard
 
-### Dashboard Link : [Add your published Power BI Service link here]
+### Dashboard Link : [https://app.powerbi.com/groups/me/reports/a0926578-c9ee-40f7-9e1b-68aa872e48bf/19f5da4b545ec08b6000?experience=power-bi]
 
 ## Problem Statement
 
@@ -81,11 +81,12 @@ The dataset is built around the following key fields (as commonly used in bank l
 
 # Snapshot of Dashboard (Power BI Service)
 
-*[Add screenshot of the published Power BI Service dashboard here]*
+<img width="1905" height="901" alt="Screenshot 2026-08-11 023628" src="https://github.com/user-attachments/assets/96fbdc76-9943-400a-af10-12b57304fbb7" />
+
 
 # Report Snapshot (Power BI Desktop)
 
-*[Add screenshot(s) of the Power BI Desktop report pages here — Summary, Overview and Details]*
+<img width="1917" height="956" alt="Screenshot 2026-08-11 023600" src="https://github.com/user-attachments/assets/db5c135e-21b0-473d-9c46-4f0535a5f9ad" />
 
 # Insights
 
