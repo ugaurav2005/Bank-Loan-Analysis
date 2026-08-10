@@ -100,14 +100,14 @@ The kind of inferences this dashboard is designed to surface include:
 - Total Funded Amount vs. Total Amount Received, showing how much of what was lent has actually come back — a direct read on collection performance.
 - Average Interest Rate and Average DTI across the portfolio, showing how expensive the bank's lending is and how financially stretched its borrowers are, on average.
 
-*(Fill in the actual figures from your published dashboard here, e.g. Total Applications = ___, Total Funded Amount = ___, Total Amount Received = ___, Avg. Interest Rate = ___ %, Avg. DTI = ___ %.)*
+*(Fill in the actual figures from your published dashboard here, e.g. Total Applications = 38576, Total Funded Amount = $435.76M, Total Amount Received = $473.07M, Avg. Interest Rate = 12.07%, Avg. DTI = 13.33%.)*
 
 ### [2] Good Loan vs. Bad Loan
 
 - The Good Loan vs. Bad Loan split (by application %, count, funded amount and received amount) shows what proportion of the lending book is healthy versus at risk of default.
 - The Loan Status grid view breaks this down further, status by status, making it easy to spot which categories of loans need closer risk management.
 
-*(Fill in: Good Loan % = ___, Bad Loan % = ___.)*
+*(Fill in: Good Loan % = 86.18%, Bad Loan % = 13.82%)*
 
 ### [3] Regional & Segment Trends (Overview Dashboard)
 
