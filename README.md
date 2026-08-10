@@ -6,7 +6,7 @@
 
 Bank loans are a crucial financial tool that enables individuals and businesses to achieve their goals and manage financial needs. Banks collect and analyse loan data — from loan applications, credit reports, internal transaction records, online portals and third-party sources — to assess risk, support lending decisions, manage loan portfolios, detect fraud, stay compliant with regulations, and understand customer behaviour.
 
-This project analyses a bank's loan portfolio to give the bank's management a clear, data-driven view of its lending business. The dashboard is built in two stages — first using **MS SQL Server** to store the data and answer business questions through SQL queries, and then using **Power BI** to turn those answers into an interactive, visual report — so that results from SQL, Power BI, Tableau and Excel can be compared against one another.
+This project analyses a bank's loan portfolio to give the bank's management a clear, data-driven view of its lending business. The dashboard is built in two stages — first using **MS SQL Server** to store the data and answer business questions through SQL queries, and then using **Power BI** to turn those answers into an interactive, visual report — so that results from SQL, Power BI and Excel can be compared against one another.
 
 The dashboard is designed to help the bank:
 
@@ -24,7 +24,7 @@ In short, because the bank cannot manage what it cannot see, this dashboard turn
 - **Step 1 :** Loan data was imported into **MS SQL Server** and a dedicated database was created to hold it.
 - **Step 2 :** A table was created in SQL Server and the raw loan data was loaded into it.
 - **Step 3 :** SQL queries were written to explore the data and answer the underlying business questions — using `SELECT`, `GROUP BY`, `ORDER BY`, `COUNT`, `DISTINCT`, `CAST`, `DECIMAL`, date functions such as `DATENAME`, `DATEPART`, `MONTH`, `QUARTER`, `DAY`, `HOUR`, as well as window functions like `CTE` and `PARTITION BY`.
-- **Step 4 :** The same queries and results were cross-checked against **Power BI**, **Tableau** and **Excel** to make sure the numbers matched regardless of the tool used, since the underlying data and logic remain the same.
+- **Step 4 :** The same queries and results were cross-checked against **Power BI** and **Excel** to make sure the numbers matched regardless of the tool used, since the underlying data and logic remain the same.
 - **Step 5 :** Power BI Desktop was connected directly to the MS SQL Server database as the data source.
 - **Step 6 :** In Power Query, the data was cleaned and shaped — checking column quality, distribution and profile (based on the entire dataset, not just the default 1000-row preview), fixing data types, and handling blank/erroneous values before loading it into the data model.
 - **Step 7 :** Data modelling was carried out in Power BI, including creation of a dedicated **Date table** to enable time intelligence calculations such as MTD and MoM.
@@ -100,14 +100,14 @@ The kind of inferences this dashboard is designed to surface include:
 - Total Funded Amount vs. Total Amount Received, showing how much of what was lent has actually come back — a direct read on collection performance.
 - Average Interest Rate and Average DTI across the portfolio, showing how expensive the bank's lending is and how financially stretched its borrowers are, on average.
 
-*(Fill in the actual figures from your published dashboard here, e.g. Total Applications = 38576, Total Funded Amount = $435.76M, Total Amount Received = $473.07M, Avg. Interest Rate = 12.07%, Avg. DTI = 13.33%.)*
+*(Total Applications = 38576, Total Funded Amount = $435.76M, Total Amount Received = $473.07M, Avg. Interest Rate = 12.07%, Avg. DTI = 13.33%.)*
 
 ### [2] Good Loan vs. Bad Loan
 
 - The Good Loan vs. Bad Loan split (by application %, count, funded amount and received amount) shows what proportion of the lending book is healthy versus at risk of default.
 - The Loan Status grid view breaks this down further, status by status, making it easy to spot which categories of loans need closer risk management.
 
-*(Fill in: Good Loan % = 86.18%, Bad Loan % = 13.82%)*
+*( Good Loan % = 86.18%, Bad Loan % = 13.82%)*
 
 ### [3] Regional & Segment Trends (Overview Dashboard)
 
