@@ -8,6 +8,8 @@ Bank loans are a crucial financial tool that enables individuals and businesses 
 
 This project analyses a bank's loan portfolio to give the bank's management a clear, data-driven view of its lending business. The dashboard is built in two stages — first using **MS SQL Server** to store the data and answer business questions through SQL queries, and then using **Power BI** to turn those answers into an interactive, visual report — so that results from SQL, Power BI and Excel can be compared against one another.
 
+The same business questions and KPIs — Total Applications, Total Funded Amount, Total Amount Received, Average Interest Rate, Average DTI, Good Loan vs Bad Loan split, and regional/segment-wise trends (state, term, purpose, employment length, home ownership) — were reproduced using pandas for data analysis and matplotlib/seaborn for visualization, to compare how the same insights come out across different tools.
+
 The dashboard is designed to help the bank:
 
 - Track the overall volume and health of loan applications (Total Applications, Total Funded Amount, Total Amount Received), including Month-to-Date (MTD) figures and Month-over-Month (MoM) change, so trends can be spotted early.
